@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title カラーユニバーサルデザイン検証
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width')
+
+    link(rel='stylesheet', href='styles/app.css')
+  body
+    .l-wrapper
+      .l-container
+        header.header
+          h1 カラーユニバーサルデザイン検証サイト
+
+        section.attention
+          h2 実験にあたっての注意
+          p オリジナルを最初に見ること。
+          p 閲覧時間の目安は2分。
+          p 対象のページは1ページであり、リンクなどは設置していない。
+        section.btns
+          a(href='pages/original.html').c-btn オリジナル
+          .u-flex.u-mT20
+            a(href='pages/color.html' target='_blank').c-btn 白黒
+            a(href='pages/font.html' target='_blank').c-btn 文字変更
+            a(href='pages/border.html' target='_blank').c-btn 線で区別
+            a(href='pages/icon.html' target='_blank').c-btn アイコン追加
+            a(href='pages/margin.html' target='_blank').c-btn 余白で区別
+          .u-mT50
+            a(href='https://docs.google.com/forms/d/e/1FAIpQLSd-u7MEunbAKaTv5FRgUHn0ISHql7yoQFsKr-BYsPX5JfLi7g/viewform?usp=sf_link' target='_blank').c-btn 回答フォーム
+      footer.footer
+          p 加藤ゼミ2018年度カラバリ班
+
+

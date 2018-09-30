@@ -1,0 +1,56 @@
+.l-wrapper {
+	color: #444;
+	font-size: 14px;
+	@include mq-up() {
+		font-size: 16px;
+	}
+}
+
+.l-container {
+	padding: 0 30px;
+	@include mq-up() {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+}
+
+.l-page {
+	@include mq-up() {
+		width: 600px;
+		margin: 0 auto;
+	}
+	&__title {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    @include mq-up() {
+      font-size: 35px;
+    }
+  }
+}
+
+.l-section {
+	padding: 20px 0;
+	&__title {
+		font-size: 20px;
+		padding:7px 0;
+		background-color: $white;
+		border-top: 1px solid $brown;
+		border-bottom: 1px solid $brown;
+		i {
+			margin-left: 5px;
+		}
+	}
+}
+
+.l-section--ad {
+	margin: 20px 0;
+	padding: 20px 0;
+	background-color: $orange;
+	h2 {
+		font-size: 18px;
+		@include mq-up() {
+			font-size: 22px;
+		}
+	}
+}

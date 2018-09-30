@@ -1,0 +1,23 @@
+@import url(//fonts.googleapis.com/css?family=Oswald);
+@import url(//fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+@import url(//fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+
+* {
+	box-sizing: border-box;
+	letter-spacing: 0.5px;
+	line-height: 1.6;
+}
+
+$brown: #9D6101;
+$darkBrown: #4B2E00;
+$lightBrown: #C8A977;
+$white: #FFF8EC;
+$orange: rgba(245, 166, 35 , .5);
+
+$black: #444;
+
+$enFont: 'Oswald', sans-serif;
+$sawarabi: 'Sawarabi Gothic', sans-serif;
+$round: 'Rounded Mplus 1c', sans-serif;
+$mincho: 'Sawarabi Mincho', serif;

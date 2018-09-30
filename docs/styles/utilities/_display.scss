@@ -1,0 +1,6 @@
+.u-none {
+	display: block;
+	@include mq-up() {
+		display: none;
+	}
+}

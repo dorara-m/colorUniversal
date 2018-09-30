@@ -1,0 +1,15 @@
+.c-caption {
+	font-size: 10px;
+	color: $lightBrown;
+	@include mq-up() {
+		font-size: 14px;
+	}
+}
+
+.c-alert {
+	font-size: 10px;
+	color: crimson;
+	@include mq-up() {
+		font-size: 14px;
+	}
+}

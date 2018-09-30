@@ -1,0 +1,115 @@
+@import "foundations/_reset";
+@import "foundations/_base";
+@import "foundations/_responsive";
+
+@import "layouts/_main";
+@import "layouts/_header";
+
+@import "components/_caption";
+@import "components/_list";
+@import "components/_button";
+
+@import "utilities/_margin";
+@import "utilities/_padding";
+@import "utilities/_flex";
+@import "utilities/_display";
+
+.l-wrapper {
+  font-family: $round;
+}
+
+.header {
+  padding: 35px 0;
+  text-align: center;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    color: #999;
+    font-size: 20px;
+  }
+}
+
+nav {
+  a {
+    font-family: $enFont;
+    font-size: 24px;
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #999;
+    color: #fff;
+    box-shadow: 1px 1px 4px #444;
+    &:hover {
+      background-color: #444;
+    }
+  }
+}
+
+.img-section {
+  margin-top: 50px;
+  border-top: 3px solid #444;
+  padding: 10px;
+  img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.contents {
+  margin-top: 30px;
+  background-color: #eee;
+  padding: 30px 30px 50px;
+  font-size: 15px;
+  font-family: $mincho;
+  font-weight: bold;
+  h2 {
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+    color: #999;
+    font-size: 28px;
+    font-family: $enFont;
+    width: 250px;
+    text-align: center;
+  }
+  &__text {
+    width: 350px;
+    h3 {
+      font-size: 18px;
+      color: #666;
+      font-family: $round;
+    }
+  }
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  ul li {
+    margin-bottom: 10px;
+    span {
+      font-family: $round;
+      color: #666;
+      width: 100px;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}
+
+.footer {
+  font-size: 13px;
+  background-color: #666;
+  color:white;
+  height: 300px;
+  padding-top: 20px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  &__icon {
+    font-size: 12px;
+    text-decoration: underline;
+  }
+}
